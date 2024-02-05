@@ -1,0 +1,302 @@
+ <!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> On Track </title>
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Customize Css File -->
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a class="brand">
+                    <img src="dist/images/on-track-studios.png" alt=" on
+                            track logo">
+                </a>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home" class="active"> home </a>
+                        </li>
+                        <li>
+                            <a href="#about"> about </a>
+                        </li>
+                        <li>
+                            <a href="#portfolio"> portfolio </a>
+                        </li>
+                        <li>
+                            <a href="#"> studio / rates </a>
+                        </li>
+                        <li class="drop_down">
+                            <a href="#services"> services </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#"> voice over </a>
+                                </li>
+                                <li>
+                                    <a href="#"> recording </a>
+                                </li>
+                                <li>
+                                    <a href="#"> podcast </a>
+                                </li>
+                                <li>
+                                    <a href="#"> post prodaction </a>
+                                </li>
+                                <li>
+                                    <a href="#"> sound design / music </a>
+                                </li>
+                                <li>
+                                    <a href="#"> project managment </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#contact"> contact </a>
+                        </li>
+                        <li class="btn">
+                            <a href="tel:+02 01013862417" class="btn-link">
+                                call us now </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="barToggle">
+                    <i class="fa-solid fa-bars" onclick="showMenu();"></i>
+                </div>
+            </div>
+        </div>
+    </header> 
+
+    <!-- Home Start  -->
+    <div class="home" id="home">
+        <div class="bg-video">
+            <div class="blur-edges"></div>
+            <video class="bg-video__content" autoplay muted loop>
+                <source src="./dist/images/ontrack-media.mp4" type="video/mp4">
+                <source src="./dist/images/ontrack-media.mp4" type="video/webm">
+                <img src="./dist/images/on-track-studios.png" alt="Abstract Background">
+            </video>
+        </div>
+        <div class="container">
+            <div class="home-info d-flex">
+                <div>
+                    <h2> <span>O</span>Ntrack<span>.<i class="fa-solid
+                                    fa-headphones"></i></span></h2>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. </p>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- About Start -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-main d-grid">
+                <div class="about-media">
+                    <img src="dist/images/about.jpeg" alt="">
+                </div>
+                <div class="about-info">
+                    <h3>Sound Recording Studio</h3>
+                    <h4> Consummate professionals in voice-over recording,
+                        casting, direction and audio production. </h4>
+                    <p> We record, produce, direct, mix and master broadcast
+                        standard audio for voice-over, podcast, TVC, cinema,
+                        radio, online, games, software, corporate, jingles,
+                        text to speech (TTS), e-learning, animation,
+                        audiobooks and more! </p>
+                    <a href="" class="btn btn-main"> work with us </a>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Services Start -->
+    <section id="services">
+        <div class="services">
+            <div class="service_content">
+                <div class="back-text">
+                    <h2>ON track Studio</h2>
+                </div>
+                <div class="front-text">
+                    <h2> experience </h2>
+                </div>
+            </div>
+            <div class="service-icon">
+                <img src="dist/images/equalizer-1.gif" alt="">
+            </div>
+            <div class="heading">
+                <h2> what we can offer </h2>
+                <h4> services </h4>
+            </div>
+            <div class="services-main ">
+                <div class="container">
+                    <div class="services-items d-grid">
+                        <div class="box-item">
+                            <img src="./dist/images/mic.png" alt="voic-over">
+                            <h3> voice-over </h3>
+                            <p> Casting, direction and record sessions </p>
+                            <a href="" class="btn">learn more</a>
+                        </div>
+                        <div class="box-item">
+                            <img src="./dist/images/speaker.png" alt="speaker">
+                            <h3>Recording</h3>
+                            <p>Sound recording, mixing and audio production
+                            </p>
+                            <a href="" class="btn">learn more</a>
+                        </div>
+                        <div class="box-item">
+                            <img src="./dist/images/050-microphone.png" alt="microphone">
+                            <h3> Podcast </h3>
+                            <p> Record in our state-of-the-art broadcast
+                                facility
+                            </p>
+                            <a href="" class="btn">learn more</a>
+                        </div>
+                        <div class="box-item">
+                            <img src="./dist/images/volume.png" alt=" ">
+                            <h3> Post Production </h3>
+                            <p> All stages of production occurring after
+                                shooting </p>
+                            <a href="" class="btn">learn more</a>
+                        </div>
+                        <div class="box-item">
+                            <img src="./dist/images/speaker-1.png" alt="speaker">
+                            <h3> Sound Design/Music </h3>
+                            <p> Casting, direction and record sessions </p>
+                            <a href="" class="btn">learn more</a>
+                        </div>
+                        <div class="box-item">
+                            <img src="./dist/images/levels-1.png" alt="
+                                    levels ">
+                            <h3> Project Management </h3>
+                            <p> Ready to get started? Contact our team </p>
+                            <a href="" class="btn">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aduio Start -->
+    <section class="aduio" id="portfolio">
+        <div class="container">
+            <div class="aduio-main d-grid">
+                <div class="aduio-text">
+                    <img src="dist/images/equalizer-1.gif" alt="">
+                    <h3> play it here </h3>
+                    <h2> audio samples </h2>
+                    <p> Working with global brands, creative agencies,
+                        local indie filmmakers and content producers.
+                    </p>
+                    <a href="" class="btn btn-main"> learn more </a>
+                </div>
+
+                <div class="audio-samples">
+                    <div class="block-box">
+                        <div class="l-box">
+                            <p> ontrack sound studio </p>
+                        </div>
+                        <div class="r-box">
+                            <h2> name voic reel </h2>
+                            <p> by <strong> name ontrack studio</strong></p>
+                            <audio controls>
+                                <source src="dist/images/hong-kong.mp3.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+
+                    <div class="block-box">
+                        <div class="l-box">
+                            <p> ontrack sound studio </p>
+                        </div>
+                        <div class="r-box">
+                            <h2> name voic reel </h2>
+                            <p> by <strong> name ontrack studio</strong></p>
+                            <audio controls>
+                                <source src="dist/images/hong-kong.mp3.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+
+                    <div class="block-box">
+                        <div class="l-box">
+                            <p> ontrack sound studio </p>
+                        </div>
+                        <div class="r-box">
+                            <h2> name voic reel </h2>
+                            <p> by <strong> name ontrack studio</strong></p>
+                            <audio controls>
+                                <source src="dist/images/sound1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="contact" id="contact">
+        <div class="container">
+            <div class="contact-main d-grid">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d27617.764790416677!2d31.3091999!3d30.0878679!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x14583f0d7ccc91f9%3A0x7883f3f6b59d8d9f!2zU2VxdWVuY2UgQ29uc3RydWN0aW9uIEdyb3VwIDM4UTUrNE0gNTAg2KfZhNiu2YTZitmB2Kkg2KfZhNmF2KPZhdmI2YYg2YXZhti02YrYqSDYp9mE2KjZg9ix2YrYjCDZgtiz2YUg2YXYtdixINin2YTYrNiv2YrYr9ip2Iwg2YXYrdin2YHYuNipINin2YTZgtin2YfYsdip4oCsIDExNzc04oCt!3m2!1d30.0878679!2d31.3091999!5e0!3m2!1sen!2seg!4v1673793491017!5m2!1sen!2seg"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contact-info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i> 01013862417
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-envelope"></i>info@ontrack.com
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-map-location"></i>50 Al Khalifa Al-Maamoun, Manshiyeh Al-Bakri
+                            Heliopolis
+                        </li>
+                        <li>
+                            <h3> follow us </h3>
+                            <a href="https://www.facebook.com/profile.php?id=100088504759873"> <i class="fa-brands fa-soundcloud"></i> </a>
+                            <a href="https://www.facebook.com/profile.php?id=100088504759873"> <i class="fa-brands fa-instagram"></i> </a>
+                            <a href="https://www.facebook.com/profile.php?id=100088504759873"> <i class="fa-brands fa-facebook-f"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+    <div class="copyright">
+        <p> COPYRIGHT &#169; 2023 ONTRACK SOUND STUDIOS |
+            WEBSITE CREATED BY <a href="https://github.com/ShimaaHamdi"> Shaimaa Hamdi </a> </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script> 
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
